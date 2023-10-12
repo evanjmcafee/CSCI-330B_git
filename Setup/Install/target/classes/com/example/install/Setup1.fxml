@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="279.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ComboBox layoutX="94.0" layoutY="61.0" prefHeight="25.0" prefWidth="60.0" />
+      <Label layoutX="92.0" layoutY="100.0" text="Name" />
+      <TextField layoutX="92.0" layoutY="119.0" prefHeight="25.0" prefWidth="235.0" />
+      <PasswordField layoutX="94.0" layoutY="196.0" prefHeight="25.0" prefWidth="235.0" />
+      <Label layoutX="94.0" layoutY="179.0" text="Password" />
+      <Label layoutX="94.0" layoutY="44.0" text="Drive" />
+   </children>
+</Pane>
