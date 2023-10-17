@@ -20,7 +20,7 @@ public class menu extends JPanel {
         //construct components
         JLabel jcomp0 = new JLabel(Login.YOU);
         jcomp0.setIcon(USER);
-        JButton jcomp1 = new JButton("Apps           ");
+        JButton jcomp1 = new JButton("Apps          ");
         jcomp1.setIcon(app);
         JButton jcomp2 = new JButton("Files           ");
         jcomp2.setIcon(file);
@@ -60,7 +60,8 @@ public class menu extends JPanel {
         jcomp5.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                System.out.println("Yay you clicked me");
+                MenuBTN.Shutdown s = new MenuBTN.Shutdown();
+                s.openDialog();
             }
 
         });
